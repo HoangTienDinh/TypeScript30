@@ -1,6 +1,17 @@
 ﻿![](https://javascript30.com/images/JS3-social-share.png)
 
+Will Wager's TypeScript solutions for Wes Bos's...
 # JavaScript30
+
+Run them yourself from a VS Code container!
+* Open in vscode and run `Remote Containers: Reopen in Container` from the command palette.
+* Build each TypeScript file with `tsc typescripts.ts` from each project's folder.
+  * All html files have been adjusted to look for typescripts.js.
+  * I use the options `--target es5 --removeComments` in my js builds.
+* Press ALT + L, ALT + O to start the Live Server extension and access the html files at http://localhost:5500 + the relative path.
+  * For example, to open the first project, go to (replace spaces with '20%' if your browser complains): `http://localhost:5500/01%20-%20JavaScript%20Drum%20Kit/index-START.html`
+
+----
 
 Starter Files + Completed solutions for the JavaScript 30 Day Challenge.
 
@@ -39,7 +50,7 @@ Feel free to submit a PR adding a link to your own recaps, guides or reviews!
 * [Yusong Notes](https://sky172839465.github.io/course/js30) Records Yusong JS 30 days note and demo :star2:
 * [Ding's Implementation](https://github.com/Ding-Fan/javascript30) code and online demo
 * [Herminio Torres](https://github.com/herminiotorres/JavaScript30) lessons and tricks learned, and a [gh-page](https://herminiotorres.github.io/JavaScript30/) to see working all the mini-projects.
-* [Dmytro Borysovskyi](https://github.com/dimabory) says many thanks to for the course to Wes 🤝 It was incredible challenge 👌 The full repository with code available [here](https://github.com/dimabory/dimabory.github.io/tree/gh-pages/src/components/JavaScript30Days) and demos can be reached by the link to [gh-pages](https://dimabory.github.io/#/js30days) 👍👍👍 
+* [Dmytro Borysovskyi](https://github.com/dimabory) says many thanks to for the course to Wes 🤝 It was incredible challenge 👌 The full repository with code available [here](https://github.com/dimabory/dimabory.github.io/tree/gh-pages/src/components/JavaScript30Days) and demos can be reached by the link to [gh-pages](https://dimabory.github.io/#/js30days) 👍👍👍
 * [Kizito](https://github.com/akhilome/)'s follow along [repo](https://github.com/akhilome/js30) with [completed challenges](https://akhilome.github.io/js30) and [notes](https://akhilome.github.io/js30/notes).
 * [VannTile](https://github.com/vanntile)'s [repository](https://github.com/vanntile/JavaScript30) and [GitHub Pages showcase](https://vanntile.github.io/JavaScript30/). Thank you for a great ⌨️ experience.
 * [Alex Kim](https://github.com/Alex-K1m/js30-challenge) completed all the challenges. You can check them out at [github pages](https://alex-k1m.github.io/js30-challenge/).
