@@ -1,3 +1,12 @@
+/**
+ * JavaScript30 by Wes Bos, https://javascript30.com/
+ * TypeScript implementation by Will Wager
+ * Project: CSS Variables
+ * Concepts: Dynamically updating CSS Variables
+ * Key takeaways: CSS variables syntax, CSS variables cascade.
+ * Sidenotes: AKA "CSS custom properties"
+ */
+
 const inputs: NodeList = document.querySelectorAll('.controls input');
 
 function handleUpdate() {
