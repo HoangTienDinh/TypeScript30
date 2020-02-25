@@ -7,7 +7,7 @@ Run them yourself from a VS Code container!
 * Open in vscode and run `Remote Containers: Reopen in Container` from the command palette.
 * Build each TypeScript file with `tsc typescripts.ts` from each project's folder.
   * All html files have been adjusted to look for typescripts.js.
-  * I use the options `--target es5 --removeComments` in my js builds.
+  * Starting at project 6, I use the options `--removeComments --strictNullChecks --noImplicitAny --target es5 ` in my js builds.
 * Press ALT + L, ALT + O to start the Live Server extension and access the html files at http://localhost:5500 + the relative path.
   * For example, to open the first project, go to (replace spaces with '20%' if your browser complains): `http://localhost:5500/01%20-%20JavaScript%20Drum%20Kit/index-START.html`
 
