@@ -5,7 +5,7 @@
  * Concepts: AJAX, Fetch API
  * Key takeaways: Get the data first, then worry about displaying it.
  * Sidenotes:
- *   Fetch API uses Promises.
+ *   Fetch API uses Promises, but --target es5 does not cause errors...
  *   I've no idea how that comma adding regexp works...
  */
 
